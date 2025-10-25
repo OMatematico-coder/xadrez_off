@@ -4,7 +4,10 @@ $(document).ready(function() {
     
     // Configuração inicial do chessboard.js
     var config = {
-        pieceTheme: 'img/chesspieces/wikipedia/{piece}.png', // Caminho padrão das peças
+        // ### A CORREÇÃO ESTÁ AQUI ###
+        // Apontamos o caminho completo das imagens no CDN
+        pieceTheme: 'https://unpkg.com/@chrisoakman/chessboard.js@1.0.0/img/chesspieces/wikipedia/{piece}.png',
+        
         position: 'start', // Posição inicial
         draggable: true // Permite arrastar peças
     };
