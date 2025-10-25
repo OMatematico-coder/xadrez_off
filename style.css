@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+/* Faz o tabuleiro se ajustar a telas menores */
+#meuTabuleiro {
+    max-width: 90vw;
+    margin: 10px;
+}
+button {
+    font-size: 1.1em;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
